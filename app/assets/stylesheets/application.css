@@ -17,9 +17,11 @@
 
  .flash {
 	width: 25%;
+	max-width: 300px;
+	max-height: 300px;
 	border: 2px solid #2FA851;
 	background-color: #41E86F;
-	height: 45px;
+	/*height: 45px;*/
 	text-align: center;
 
 }

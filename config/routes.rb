@@ -1,7 +1,7 @@
 DeviseTwit::Application.routes.draw do
-
+  root to: "home#index"
   devise_for :users, controllers: {omniauth_callbacks: 'users/omniauth_callbacks'}
-  root to: "users#index"
+ 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
